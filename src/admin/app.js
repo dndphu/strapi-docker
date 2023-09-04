@@ -1,3 +1,5 @@
+import favicon from "./extensions/favicon.png";
+
 const config = {
   locales: [
     // 'ar',
@@ -27,6 +29,9 @@ const config = {
     // 'zh-Hans',
     // 'zh',
   ],
+  head: {
+    favicon: favicon,
+  },
 };
 
 const bootstrap = (app) => {
